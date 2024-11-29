@@ -1,4 +1,4 @@
-package br.com.fiap.soat7.infrastructure.controllers.pedido.request;
+package br.com.fiap.soat7.infrastructure.controllers.request;
 
 import br.com.fiap.soat7.domain.types.StatusPedido;
 import com.fasterxml.jackson.annotation.JsonIgnore;

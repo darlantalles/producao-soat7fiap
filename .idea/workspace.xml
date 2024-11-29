@@ -4,7 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c52ca13-e533-4e3e-bbad-4e357aba3772" name="Changes" comment="" />
+    <list default="true" id="0c52ca13-e533-4e3e-bbad-4e357aba3772" name="Changes" comment="Commit inicial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/integration/client/PagamentoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/integration/service/PagamentoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/ClienteGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/PedidoGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/PedidoGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/ProdutoGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/ProdutoGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/cliente/AdicionarClienteUsecase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/cliente/BuscarClientePorCpfUsecase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/cliente/BuscarTodosClientesUsecase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/AdicionarPedidoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/AdicionarPedidoUsecase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/BuscarTodosPedidosUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/BuscarTodosPedidosUsecase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/ConfirmarPagamentoPedidoUsecase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/ConsultarStatusPagamentoPedidoUsecase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/FinalizarPedidoUsecase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/MarcarPedidoProntoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/MarcarPedidoProntoUsecase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/PrepararPedidoUsecase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/AdicionarProdutoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/AdicionarProdutoUsecase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/ConsultarProdutoCategoriaUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/ConsultarProdutoCategoriaUsecase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/EditarProdutoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/EditarProdutoUsecase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/ClienteConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/PedidoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/PedidoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/ProdutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/entity/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/cliente/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/cliente/request/ClienteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/cliente/response/ClienteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/pedido/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/ProducaoPedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/pedido/request/PedidoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/request/PedidoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/pedido/response/PedidoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/response/PedidoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/pedido/response/PedidoStatusPagamentoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/response/PedidoStatusPagamentoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/produto/ProdutoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/produto/request/CategoriaRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/produto/request/ProdutoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/produto/response/ProdutoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/webhook/WebhookPedidoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/webhook/request/ConfirmarPagamentoWebhookRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/ClienteRepositoryGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/PedidoRepositoryGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/PedidoRepositoryGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/ProdutoRepositoryGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/IClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/IProdutoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/PedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/PedidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/ProdutoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/ClienteEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/PedidoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/PedidoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/ProdutoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/ProdutoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lanchonete-producao-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +69,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt:///usr/lib/jvm/java-21-openjdk-amd64!/jdk.hotspot.agent/sun/jvm/hotspot/tools/PMap.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -28,10 +88,11 @@
     "Maven.srv-lanchonete-producao [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "Spring Boot.PedidosApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/darlan/projetos/FIAP/producao-soat7fiap",
+    "last_opened_file_path": "/home/darlan/projetos/FIAP/producao-soat7fiap/src/main/java/br/com/fiap/soat7/infrastructure",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -40,10 +101,15 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.49310344",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.PedidosApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="producao-soat7fiap" />
@@ -90,10 +156,36 @@
       <workItem from="1732840194353" duration="36000" />
       <workItem from="1732843710955" duration="990000" />
       <workItem from="1732844744690" duration="473000" />
+      <workItem from="1732847114065" duration="1783000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit inicial">
+      <option name="closed" value="true" />
+      <created>1732846190403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732846190404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit inicial" />
+    <MESSAGE value="Commit inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
   </component>
 </project>

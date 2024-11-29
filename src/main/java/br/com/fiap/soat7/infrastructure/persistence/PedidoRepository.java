@@ -1,6 +1,6 @@
 package br.com.fiap.soat7.infrastructure.persistence;
 
-import br.com.fiap.soat7.domain.entity.Pedido;
+import br.com.fiap.soat7.domain.Pedido;
 import br.com.fiap.soat7.infrastructure.persistence.entity.PedidoEntity;
 import jakarta.persistence.EntityManager;
 import org.springframework.dao.DataIntegrityViolationException;

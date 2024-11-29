@@ -20,29 +20,10 @@ public class PedidoConfig {
         return new BuscarTodosPedidosUsecase(pedidoGateway);
     }
 
-    @Bean
-    FinalizarPedidoUsecase finalizarPedidoUseCase(PedidoGateway pedidoGateway) {
-        return new FinalizarPedidoUsecase(pedidoGateway);
-    }
 
     @Bean
     MarcarPedidoProntoUsecase marcarPedidoProntoUseCase(PedidoGateway pedidoGateway) {
         return new MarcarPedidoProntoUsecase(pedidoGateway);
-    }
-
-    @Bean
-    PrepararPedidoUsecase prepararPedidoUseCase(PedidoGateway pedidoGateway) {
-        return new PrepararPedidoUsecase(pedidoGateway);
-    }
-
-    @Bean
-    ConsultarStatusPagamentoPedidoUsecase consultarStatusPagamentoPedidoUsecase(PedidoGateway pedidoGateway) {
-        return new ConsultarStatusPagamentoPedidoUsecase(pedidoGateway);
-    }
-
-    @Bean
-    ConfirmarPagamentoPedidoUsecase confirmarPagamentoPedidoUseCase(PedidoGateway pedidoGateway) {
-        return new ConfirmarPagamentoPedidoUsecase(pedidoGateway);
     }
 
     @Bean

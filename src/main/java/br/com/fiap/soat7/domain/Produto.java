@@ -1,4 +1,4 @@
-package br.com.fiap.soat7.domain.entity;
+package br.com.fiap.soat7.domain;
 
 import br.com.fiap.soat7.domain.types.Categoria;
 import br.com.fiap.soat7.infrastructure.persistence.entity.ProdutoEntity;

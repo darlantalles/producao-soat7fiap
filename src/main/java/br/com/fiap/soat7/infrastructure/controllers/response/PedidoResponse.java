@@ -1,6 +1,6 @@
-package br.com.fiap.soat7.infrastructure.controllers.pedido.response;
+package br.com.fiap.soat7.infrastructure.controllers.response;
 
-import br.com.fiap.soat7.domain.entity.Produto;
+import br.com.fiap.soat7.domain.Produto;
 import br.com.fiap.soat7.domain.types.StatusPagamento;
 import br.com.fiap.soat7.domain.types.StatusPedido;
 import io.swagger.v3.oas.annotations.media.Schema;

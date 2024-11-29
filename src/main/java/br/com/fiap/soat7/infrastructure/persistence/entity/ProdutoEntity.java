@@ -1,7 +1,7 @@
 package br.com.fiap.soat7.infrastructure.persistence.entity;
 
 import br.com.fiap.soat7.domain.types.Categoria;
-import br.com.fiap.soat7.domain.entity.Produto;
+import br.com.fiap.soat7.domain.Produto;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

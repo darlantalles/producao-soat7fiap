@@ -1,6 +1,6 @@
 package br.com.fiap.soat7.infrastructure.persistence.entity;
 
-import br.com.fiap.soat7.domain.entity.Pedido;
+import br.com.fiap.soat7.domain.Pedido;
 import br.com.fiap.soat7.domain.types.StatusPagamento;
 import br.com.fiap.soat7.domain.types.StatusPedido;
 import jakarta.persistence.*;

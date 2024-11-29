@@ -1,7 +1,7 @@
 package br.com.fiap.soat7.application.usecases.pedido;
 
 import br.com.fiap.soat7.application.gateways.PedidoGateway;
-import br.com.fiap.soat7.domain.entity.Pedido;
+import br.com.fiap.soat7.domain.Pedido;
 import br.com.fiap.soat7.domain.types.StatusPedido;
 
 import java.util.Comparator;
@@ -19,7 +19,7 @@ public class BuscarTodosPedidosUsecase {
     }
 
 
-    public List<Pedido> buscarPedidos() {
+    public List<Pedido> buscarFilaPedido() {
 
         List<Pedido> pedidos = pedidoGateway.buscarPedidos();
 
