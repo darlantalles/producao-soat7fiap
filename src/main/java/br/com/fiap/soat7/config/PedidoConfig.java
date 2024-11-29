@@ -2,32 +2,67 @@ package br.com.fiap.soat7.config;
 
 import br.com.fiap.soat7.application.gateways.PedidoGateway;
 import br.com.fiap.soat7.application.usecases.pedido.*;
-import br.com.fiap.soat7.infrastructure.gateways.PedidoRepositoryGateway;
-import br.com.fiap.soat7.infrastructure.persistence.PedidoRepository;
+import br.com.fiap.soat7.domain.Pedido;
+import br.com.fiap.soat7.infrastructure.client.PedidoClient;
+import br.com.fiap.soat7.infrastructure.service.PedidoService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.ResponseEntity;
+
+import java.util.List;
 
 @Configuration
 public class PedidoConfig {
 
     @Bean
-    AdicionarPedidoUsecase criarPedidoUseCase(PedidoGateway pedidoGateway) {
-        return new AdicionarPedidoUsecase(pedidoGateway);
+    SolicitarPedidoUsecase criarPedidoUseCase(PedidoGateway pedidoGateway) {
+        return new SolicitarPedidoUsecase(pedidoGateway);
     }
 
     @Bean
-    BuscarTodosPedidosUsecase buscarTodosPedidosUseCase(PedidoGateway pedidoGateway) {
-        return new BuscarTodosPedidosUsecase(pedidoGateway);
+    ConsultarFilaPedidoUsecase buscarTodosPedidosUseCase(PedidoGateway pedidoGateway) {
+        return new ConsultarFilaPedidoUsecase(pedidoGateway);
     }
 
 
     @Bean
-    MarcarPedidoProntoUsecase marcarPedidoProntoUseCase(PedidoGateway pedidoGateway) {
-        return new MarcarPedidoProntoUsecase(pedidoGateway);
+    AtualizarStatusPedidoUsecase marcarPedidoProntoUseCase(PedidoGateway pedidoGateway) {
+        return new AtualizarStatusPedidoUsecase(pedidoGateway);
     }
 
     @Bean
-    PedidoGateway pedidoGateway(PedidoRepository pedidoRepository) {
-        return new PedidoRepositoryGateway(pedidoRepository);
+    PedidoGateway pedidoGateway(PedidoClient pedidoClient) {
+        return new PedidoService(pedidoClient);
+    }
+
+    @Bean
+    public PedidoClient pedidoClient() {
+        return new PedidoClient() {
+            @Override
+            public ResponseEntity<Pedido> adicionarPedido(Pedido pedido) {
+                return null;
+            }
+
+            @Override
+            public ResponseEntity<Pedido> atualizarComoPronto(Long id) {
+                return null;
+            }
+
+            @Override
+            public ResponseEntity<Pedido> atualizarComoEmPreparacao(Long id) {
+                return null;
+            }
+
+            @Override
+            public ResponseEntity<Pedido> atualizarComoFinalizado(Long id) {
+                return null;
+            }
+
+            @Override
+            public ResponseEntity<List<Pedido>> buscarPedidos() {
+                return null;
+            }
+
+        };
     }
 }

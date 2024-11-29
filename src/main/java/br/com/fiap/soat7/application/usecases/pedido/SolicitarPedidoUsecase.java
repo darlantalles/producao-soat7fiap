@@ -7,20 +7,17 @@ import br.com.fiap.soat7.domain.types.StatusPedido;
 
 import java.util.Date;
 
-public class AdicionarPedidoUsecase {
+public class SolicitarPedidoUsecase {
 
     private final PedidoGateway pedidoGateway;
 
 
-    public AdicionarPedidoUsecase(PedidoGateway pedidoGateway) {
+    public SolicitarPedidoUsecase(PedidoGateway pedidoGateway) {
         this.pedidoGateway = pedidoGateway;
     }
 
 
-    public Pedido criarPedido(Pedido pedido) {
-        pedido.setDataCadastro(new Date());
-         pedido.setStatus(StatusPedido.RECEBIDO);
-        pedido.setStatusPagamento(StatusPagamento.AGUARDANDO_PAGAMENTO);
+    public Pedido solicitarPedido(Pedido pedido) {
         return pedidoGateway.adicionarPedido(pedido);
     }
 }

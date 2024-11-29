@@ -9,17 +9,17 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-public class BuscarTodosPedidosUsecase {
+public class ConsultarFilaPedidoUsecase {
 
     private final PedidoGateway pedidoGateway;
 
 
-    public BuscarTodosPedidosUsecase(PedidoGateway pedidoGateway) {
+    public ConsultarFilaPedidoUsecase(PedidoGateway pedidoGateway) {
         this.pedidoGateway = pedidoGateway;
     }
 
 
-    public List<Pedido> buscarFilaPedido() {
+    public List<Pedido> consultarFilaPedido() {
 
         List<Pedido> pedidos = pedidoGateway.buscarPedidos();
 

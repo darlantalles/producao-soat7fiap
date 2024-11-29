@@ -2,7 +2,6 @@ package br.com.fiap.soat7.domain;
 
 import br.com.fiap.soat7.domain.types.StatusPagamento;
 import br.com.fiap.soat7.domain.types.StatusPedido;
-import br.com.fiap.soat7.infrastructure.persistence.entity.ProdutoEntity;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,17 +25,4 @@ public class Pedido {
 
     private StatusPagamento statusPagamento;
 
-    public Pedido(Long id) {
-        this.id = id;
-    }
-
-    public Pedido(Long id, String cpf, Date dataCadastro, StatusPedido status, List<ProdutoEntity> produtoList, String observacao, StatusPagamento statusPagamento) {
-        this.id = id;
-        this.cpf = cpf;
-        this.dataCadastro = dataCadastro;
-        this.status = status;
-        this.produtoList = produtoList.stream().map(Produto::new).toList();
-        this.observacao = observacao;
-        this.statusPagamento = statusPagamento;
-    }
 }

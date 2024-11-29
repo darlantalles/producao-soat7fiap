@@ -4,63 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c52ca13-e533-4e3e-bbad-4e357aba3772" name="Changes" comment="Commit inicial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/integration/client/PagamentoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/integration/service/PagamentoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="0c52ca13-e533-4e3e-bbad-4e357aba3772" name="Changes" comment="Primeiro build">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/client/PedidoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/service/PedidoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/ClienteGateway.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/PedidoGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/PedidoGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/ProdutoGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/gateways/ProdutoGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/cliente/AdicionarClienteUsecase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/cliente/BuscarClientePorCpfUsecase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/cliente/BuscarTodosClientesUsecase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/AdicionarPedidoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/AdicionarPedidoUsecase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/BuscarTodosPedidosUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/BuscarTodosPedidosUsecase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/ConfirmarPagamentoPedidoUsecase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/ConsultarStatusPagamentoPedidoUsecase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/FinalizarPedidoUsecase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/MarcarPedidoProntoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/MarcarPedidoProntoUsecase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/PrepararPedidoUsecase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/AdicionarProdutoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/AdicionarProdutoUsecase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/ConsultarProdutoCategoriaUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/ConsultarProdutoCategoriaUsecase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/EditarProdutoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/produto/EditarProdutoUsecase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/ClienteConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/AdicionarPedidoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/SolicitarPedidoUsecase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/BuscarTodosPedidosUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/ConsultarFilaPedidoUsecase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/MarcarPedidoProntoUsecase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/application/usecases/pedido/AtualizarStatusPedidoUsecase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/PedidoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/PedidoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/ProdutoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/entity/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/cliente/ClienteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/cliente/request/ClienteRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/cliente/response/ClienteResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/pedido/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/ProducaoPedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/pedido/request/PedidoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/request/PedidoRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/pedido/response/PedidoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/response/PedidoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/pedido/response/PedidoStatusPagamentoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/response/PedidoStatusPagamentoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/produto/ProdutoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/produto/request/CategoriaRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/produto/request/ProdutoRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/produto/response/ProdutoResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/webhook/WebhookPedidoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/webhook/request/ConfirmarPagamentoWebhookRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/ClienteRepositoryGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/PedidoRepositoryGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/PedidoRepositoryGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/ProdutoRepositoryGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/IClienteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/IProdutoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/PedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/PedidoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/ProdutoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/ClienteEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/PedidoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/PedidoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/ProdutoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/ProdutoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lanchonete-producao-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/domain/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/ProducaoPedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/controllers/GestorPedidosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/gateways/PedidoRepositoryGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/integration/client/PagamentoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/integration/service/PagamentoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/IPedidoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/PedidoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/PedidoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/persistence/entity/ProdutoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lanchonete-producao-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/lanchonete-producao-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +53,15 @@
   "keyToString": {
     "Maven.lanchonete-producao [clean,install].executor": "Run",
     "Maven.srv-lanchonete-producao [clean,install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Spring Boot.PedidosApplication.executor": "Debug",
+    "Spring Boot.LanchoneteProducaoApplication.executor": "Debug",
+    "Spring Boot.PedidosApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/darlan/projetos/FIAP/producao-soat7fiap/src/main/java/br/com/fiap/soat7/infrastructure",
@@ -101,7 +73,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.49310344",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "swagger",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -110,7 +82,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.PedidosApplication">
+  <component name="RunManager" selected="Spring Boot.LanchoneteProducaoApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="producao-soat7fiap" />
       <method v="2">
@@ -156,7 +128,7 @@
       <workItem from="1732840194353" duration="36000" />
       <workItem from="1732843710955" duration="990000" />
       <workItem from="1732844744690" duration="473000" />
-      <workItem from="1732847114065" duration="1783000" />
+      <workItem from="1732847114065" duration="7064000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -166,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732846190404</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primeiro build">
+      <option name="closed" value="true" />
+      <created>1732849164897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732849164897</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +166,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial" />
     <MESSAGE value="Commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
+    <MESSAGE value="Primeiro build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro build" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/infrastructure/service/PedidoService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/soat7/config/PedidoConfig.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

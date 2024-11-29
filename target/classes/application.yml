@@ -1,7 +1,9 @@
+server:
+  port: 8081
+
 spring:
   profiles:
     active: ${APP_ENV}
-
 ---
 
 spring:
@@ -33,3 +35,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/${POSTGRES_DB:tech}
     username: ${POSTGRES_USER:postgres}
     password: ${POSTGRES_PASSWORD:root}
+
+url:
+  pedido: http://localhost:8080/rest/api/v1
+
+
