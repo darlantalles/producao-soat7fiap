@@ -15,7 +15,6 @@
 	<description>Api de gestão de pedidos</description>
 	<properties>
 		<java.version>21</java.version>
-
 	</properties>
 
 	<dependencies>
@@ -33,11 +32,6 @@
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.0.2</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-
 
 		<dependency>
 			<groupId>org.modelmapper</groupId>
@@ -79,35 +73,13 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>io.swagger.core.v3</groupId>
+			<artifactId>swagger-annotations</artifactId>
+			<version>2.2.20</version>
+		</dependency>
 	</dependencies>
 
-	<profiles>
-		<profile>
-			<id>dev</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<dependencies>
-				<!-- Dependências para ambiente de desenvolvimento -->
-				<dependency>
-					<groupId>com.h2database</groupId>
-					<artifactId>h2</artifactId>
-					<scope>runtime</scope>
-				</dependency>
-			</dependencies>
-		</profile>
-		<profile>
-			<id>prod</id>
-			<dependencies>
-				<!-- Dependências para ambiente de produção -->
-				<dependency>
-					<groupId>org.postgresql</groupId>
-					<artifactId>postgresql</artifactId>
-					<version>42.7.3</version>
-				</dependency>
-			</dependencies>
-		</profile>
-	</profiles>
 	<build>
 		<plugins>
 			<plugin>

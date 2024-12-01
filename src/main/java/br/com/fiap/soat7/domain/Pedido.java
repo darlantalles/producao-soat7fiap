@@ -21,6 +21,7 @@ public class Pedido {
     private Date dataCadastro;
     private StatusPedido status;
     private List<Produto> produtoList;
+    private List<Long> idProdutoList;
     private String observacao;
 
     private StatusPagamento statusPagamento;

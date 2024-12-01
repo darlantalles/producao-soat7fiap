@@ -5,7 +5,6 @@ import br.com.fiap.soat7.application.gateways.PedidoGateway;
 import br.com.fiap.soat7.domain.Pedido;
 import br.com.fiap.soat7.domain.types.StatusPedido;
 import br.com.fiap.soat7.infrastructure.client.PedidoClient;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +12,6 @@ import java.util.List;
 @Service
 public class PedidoService  implements PedidoGateway {
 
-    @Autowired
     private final PedidoClient pedidoClient;
 
     public PedidoService(PedidoClient pedidoClient) {
