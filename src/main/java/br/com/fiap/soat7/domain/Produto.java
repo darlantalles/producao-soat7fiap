@@ -22,4 +22,14 @@ public class Produto {
     public Produto(Long id) {
         this.id = id;
     }
+
+    public Produto(Long id, String nome, Categoria categoria, BigDecimal preco, String descricao, String imagem) {
+        this.id = id;
+        this.nome = nome;
+        this.categoria = categoria;
+        this.preco = preco;
+        this.descricao = descricao;
+        this.imagem = imagem;
+    }
+
 }

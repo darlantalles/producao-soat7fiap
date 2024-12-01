@@ -26,4 +26,18 @@ public class Pedido {
 
     private StatusPagamento statusPagamento;
 
+    public Pedido(Long id) {
+        this.id = id;
+    }
+
+    public Pedido(Long id, String cpf, Date dataCadastro, StatusPedido status, List<Produto> produtoList,
+                  String observacao, StatusPagamento statusPagamento) {
+        this.id = id;
+        this.cpf = cpf;
+        this.dataCadastro = dataCadastro;
+        this.status = status;
+        this.produtoList = produtoList;
+        this.observacao = observacao;
+        this.statusPagamento = statusPagamento;
+    }
 }
