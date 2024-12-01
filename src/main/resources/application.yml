@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: ${APP_ENV}
+
+pedido:
+  url: "http://localhost:8080/rest/api/v1/"
