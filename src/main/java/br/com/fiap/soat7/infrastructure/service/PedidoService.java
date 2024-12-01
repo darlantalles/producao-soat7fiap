@@ -5,11 +5,15 @@ import br.com.fiap.soat7.application.gateways.PedidoGateway;
 import br.com.fiap.soat7.domain.Pedido;
 import br.com.fiap.soat7.domain.types.StatusPedido;
 import br.com.fiap.soat7.infrastructure.client.PedidoClient;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class PedidoService  implements PedidoGateway {
 
+    @Autowired
     private final PedidoClient pedidoClient;
 
     public PedidoService(PedidoClient pedidoClient) {
@@ -28,14 +32,11 @@ public class PedidoService  implements PedidoGateway {
 
     @Override
     public Pedido atualizarStatus(Long id, StatusPedido statusPedido) {
-        switch (statusPedido) {
-            case PRONTO:
-                return pedidoClient.atualizarComoPronto(id).getBody();
-            case EM_PREPARACAO:
-                return pedidoClient.atualizarComoEmPreparacao(id).getBody();
-            case FINALIZADO:
-                return pedidoClient.atualizarComoFinalizado(id).getBody();
-        }
-        return null;
+        return switch (statusPedido) {
+            case PRONTO -> pedidoClient.atualizarComoPronto(id).getBody();
+            case EM_PREPARACAO -> pedidoClient.atualizarComoEmPreparacao(id).getBody();
+            case FINALIZADO -> pedidoClient.atualizarComoFinalizado(id).getBody();
+            default -> null;
+        };
     }
 }

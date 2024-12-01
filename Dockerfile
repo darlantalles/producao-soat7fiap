@@ -15,9 +15,9 @@ RUN curl https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.
     cd /opt/code/ &&\
     mvn clean package -P "$APP_ENV" &&\
     mv /opt/code/target/*.jar /opt/app/ &&\
-    mv /opt/app/*.jar /opt/app/lanchonete-producao.jar &&\
+    mv /opt/app/*.jar /opt/app/producao.jar &&\
     rm -rfv /opt/code &&\
     chmod 777 -R /opt/app/
 
-ENTRYPOINT ["java","-jar","/opt/app/lanchonete-producao.jar"]
+ENTRYPOINT ["java","-jar","/opt/app/producao.jar"]
 

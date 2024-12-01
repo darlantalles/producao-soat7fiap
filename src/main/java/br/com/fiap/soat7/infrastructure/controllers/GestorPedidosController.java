@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/rest/api/v1/GestorPedidos")
+@RequestMapping("/rest/api/v1/gestor-pedidos")
 public class GestorPedidosController {
 
     private final SolicitarPedidoUsecase solicitarPedidoUsecase;

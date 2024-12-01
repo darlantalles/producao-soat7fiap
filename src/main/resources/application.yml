@@ -37,6 +37,4 @@ spring:
     password: ${POSTGRES_PASSWORD:root}
 
 url:
-  pedido: http://localhost:8080/rest/api/v1
-
-
+  pedido: "http://localhost:8080/rest/api/v1"

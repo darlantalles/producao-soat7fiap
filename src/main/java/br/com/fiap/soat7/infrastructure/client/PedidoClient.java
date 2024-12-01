@@ -10,14 +10,14 @@ import br.com.fiap.soat7.domain.Pedido;
 
 import java.util.List;
 
-@FeignClient(name = "pedido", url = "${url.pedido}")
+@FeignClient(name = "pedido",  url = "http://localhost:8080/rest/api/v1/")
 public interface PedidoClient {
 
 
     @PostMapping("/pedidos/checkout")
     ResponseEntity<Pedido> adicionarPedido(@RequestBody Pedido pedido);
 
-    @GetMapping("/pedidos")
+    @GetMapping("/pedidos/")
     ResponseEntity<List<Pedido>> buscarPedidos();
 
 
