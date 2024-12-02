@@ -15,6 +15,8 @@
 	<description>Api de gestão de pedidos</description>
 	<properties>
 		<java.version>21</java.version>
+		<sonar.organization>fiap-soat7-dilpv</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
