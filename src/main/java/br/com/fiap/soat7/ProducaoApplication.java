@@ -11,8 +11,8 @@ import org.springframework.context.support.ResourceBundleMessageSource;
 
 @OpenAPIDefinition(
 		info = @Info(
-				title = "Produção API",
-				description = "Api de produção de pedidos"
+				title = "API de Gestão de Pedidos",
+				description = "Api de Gestão de Pedidos"
 		)
 )
 @EnableFeignClients
