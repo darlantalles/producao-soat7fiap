@@ -21,3 +21,11 @@ Este microserviço gerencia a produção e acompanhamento de pedidos de uma lanc
 ```bash
 git clone <URL_DO_REPOSITORIO>
 cd <NOME_DO_DIRETORIO>
+```
+
+---
+## 📄 **Documentação da API - swagger**
+
+A documentação da API está disponível através do Swagger UI. Para acessar, use o seguinte link:
+
+[Documentação da API - Swagger UI](http://localhost:8080/swagger-ui.html)
