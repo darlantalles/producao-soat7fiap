@@ -1,21 +1,8 @@
-# 📦 Microserviço de Gestão de Pedidos - Lanchonete
+## Descrição
 
 Tech Challenge da Fase 4 do curso Pós-Tech em Arquitetura de Software. Desenvolvimento de sistema de gerenciamento de pedidos para lanchonete em expansão.
 
 Vídeo explicativo da aquitetura do projeto: [https://youtu.be/WHrUoj0jR2U](https://youtu.be/WHrUoj0jR2U)
-
----
-
-## 🚀 **Tecnologias Utilizadas**
-- **Java 21**
-- **Spring Boot 3.2.5**
-- **Springdoc OpenAPI (Swagger UI)**
-- **Lombok**
-- **ModelMapper**
-- **Feign Client** para integração com outros serviços
-- **JUnit 5** e **Mockito** para testes
-
----
 
 ## Grupo 55
 
@@ -28,10 +15,14 @@ Vídeo explicativo da aquitetura do projeto: [https://youtu.be/WHrUoj0jR2U](http
 ### Evidencias dos testes 
 
 Relatório Jacoco: 
-![jacoco relatorio pedidos](https://github.com/user-attachments/assets/d8863552-d380-4bbd-b823-ed58dd68c4b8)
+![jacoco relatorio:](https://github.com/user-attachments/assets/3d208f0a-6a91-4367-b08b-29c6d0ce0882)
+
 
 Sonar:
-![sonar](https://github.com/user-attachments/assets/0b394524-7838-468d-a8fe-ac6629d4b77b)
+https://sonarcloud.io/summary/new_code?id=fiap-soat7-dilpv_producao
+
+![image](https://github.com/user-attachments/assets/6f0f93ca-ee99-4cfb-b31a-fbfc06e7b009)
+
 
 ## Infraestrutura
 
