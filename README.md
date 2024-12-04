@@ -20,6 +20,7 @@ Relatório Jacoco:
 
 Sonar:
 https://sonarcloud.io/summary/new_code?id=fiap-soat7-dilpv_producao
+![image](https://github.com/user-attachments/assets/348cf34e-3a68-43cf-af6c-ef628fc759bf)
 
 ![image](https://github.com/user-attachments/assets/6f0f93ca-ee99-4cfb-b31a-fbfc06e7b009)
 
